@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(to right, #ff5722, #ff9800);
+    color: white;
+    padding: 150px 20px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #ff9800;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #e64a19;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+#about, #technologies {
+    background-color: #e0f7fa;
+}
+
+#features, #developer {
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+ul li {
+    padding: 10px;
+}
+
+/* CTA Section */
+#cta {
+    background-color: #ff9800;
+    color: white;
+    padding: 50px 0;
+}
+
+#cta h2 {
+    font-size: 2.5rem;
+}
+
+#cta .btn {
+    background-color: white;
+    color: #ff9800;
+}
+
+#cta .btn:hover {
+    background-color: #fff3e0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
